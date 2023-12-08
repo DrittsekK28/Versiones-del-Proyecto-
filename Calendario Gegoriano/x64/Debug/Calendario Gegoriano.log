@@ -1,3 +1,5 @@
 ﻿  Calendario Gegoriano.cpp
 C:\Users\mrcac\OneDrive\Documentos\CP Pruebas\Calendario Gegoriano\Calendario Gegoriano\Calendario Gegoriano.cpp(3,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+C:\Users\mrcac\OneDrive\Documentos\CP Pruebas\Calendario Gegoriano\Calendario Gegoriano\Calendario Gegoriano.cpp(4,18): warning C4101: 'sxMesesT': variable local sin referencia
+C:\Users\mrcac\OneDrive\Documentos\CP Pruebas\Calendario Gegoriano\Calendario Gegoriano\Calendario Gegoriano.cpp(4,7): warning C4101: 'szMesesTI': variable local sin referencia
   Calendario Gegoriano.vcxproj -> C:\Users\mrcac\OneDrive\Documentos\CP Pruebas\Calendario Gegoriano\x64\Debug\Calendario Gegoriano.exe
