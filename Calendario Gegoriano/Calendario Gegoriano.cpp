@@ -1,22 +1,22 @@
 #include <stdio.h>
-void main()
+int main()
 {
-	int pollo, pato, ganso, pollogordo, patogordo, gansogordo, polloflaco, patoflaco;
-	scanf_s("%2i", &pollo); scanf_s("%2i", &pato); scanf_s("%4i", &ganso);
-	pollogordo = pollo + 1;
-	polloflaco = 1;
-	patogordo = pato + 1;
-	patoflaco = 1;
-	gansogordo = ganso + 1;
-    if (pato == 1, 3, 5, 7, 8, 10 && pollo == 31) { printf("%2i %2i %4i", polloflaco, patogordo, ganso); }
-	else if (pato == 2 && pollo == 28 && ganso % 400 == 0) { printf("%2i %2i %4i", pollogordo, pato, ganso); }
-	else if (pato == 2 && pollo == 28 && ganso % 4 == 0 && ganso % 100) { printf("%2i %2i %4i", pollogordo, pato, ganso); }
-	else if (pato == 2 && pollo == 28) { printf("% 2i % 2i % 4i", polloflaco, patogordo, ganso); }
-	else if (pollo == 4 && pato == 10 && ganso == 1582) { pollogordo = pollo + 11; printf("%2i %2i %4i", pollogordo, pato, ganso); }
-	else if (pato == 4 && pollo == 30) { printf("%2i %2i %4i", polloflaco, patogordo, ganso); }
-	else if (pato == 6 && pollo == 30) { printf("%2i %2i %4i", polloflaco, patogordo, ganso); }
-	else if (pato == 9 && pollo == 30) { printf("%2i %2i %4i", polloflaco, patogordo, ganso); }
-	else if (pato == 11 && pollo == 30) { printf("%2i %2i %4i", polloflaco, patogordo, ganso); }
-	else if (pato == 12 && pollo == 31) { printf("%2i %2i %4i", polloflaco, patoflaco, gansogordo); }
-	else if (1==1){printf("%2i %2i %4i", pollogordo, pato, ganso);}
+	int D, M, A, DS, MS, AS, DI, MI;
+	scanf_s("%2i", &D); scanf_s("%2i", &M); scanf_s("%4i", &A);
+	DS = D + 1;
+	DI = 1;
+	MS = M + 1;
+	MI = 1;
+	AS = A + 1;
+	if (M == 1, 3, 5, 7, 8, 10 && D <= 31) { printf("%2i %2i %4i", DI, MS, A); } 
+    else if (M == 2 && D == 28 && A % 400 == 0) { printf("%2i %2i %4i", DS, M, A); }
+	else if (M == 2 && D == 28 && A % 4 == 0 && A % 100) { printf("%2i %2i %4i", DS, M, A); }
+	else if (M == 2 && D == 28) { printf("% 2i % 2i % 4i", DI, MS, A); }
+	else if (D == 4 && M == 10 && A == 1582) { DS = D + 11; printf("%2i %2i %4i", DS, M, A); }
+	else if (M == 4 && D <= 30) { printf("%2i %2i %4i", DI, MS, A); }
+	else if (M == 6 && D <= 30) { printf("%2i %2i %4i", DI, MS, A); }
+	else if (M == 9 && D <= 30) { printf("%2i %2i %4i", DI, MS, A); }
+	else if (M == 11 && D <= 30) { printf("%2i %2i %4i", DI, MS, A); }
+	else if (M == 12 && D == 31) { printf("%2i %2i %4i", DI, MI, AS); }
+	else if (D <= 31) { printf("%2i %2i %4i", DS, M, A); }
 }
